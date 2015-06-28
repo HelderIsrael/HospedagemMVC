@@ -1,0 +1,89 @@
+﻿@model IEnumerable<HospedagemMVC.Domain.Accommodation>
+
+@{
+    ViewBag.Title = "GetAccommodationsByDate";
+}
+
+<h2>Filtro de Hospedagens</h2>
+
+<p>
+    Data Inicial: <br/>
+    Data Final:
+    <br/>
+</p>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Customer.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateChekIn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCheckOut)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AmountPeopleAdult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AmountPeopleChild)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AmountChalets)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValueAdult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValueChild)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ValueTotal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Obs)
+        </th>
+    </tr>
+
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateChekIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateCheckOut)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmountPeopleAdult)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmountPeopleChild)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AmountChalets)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValueAdult)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValueChild)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValueTotal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Obs)
+            </td>
+        </tr>
+    }
+    
+</table>
+
+<p>
+    @Html.ActionLink("Voltar à Lista", "Index")
+</p>

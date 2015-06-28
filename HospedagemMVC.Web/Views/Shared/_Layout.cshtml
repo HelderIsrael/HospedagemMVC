@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Sítio Arroio da Serra</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body> 
+    <div class="row" align="center">
+        <section class="col-md-5"></section>
+        <section class="col-md-2">
+            <img src="Content/logo.png" />
+        </section>
+        <section class="col-md-5"></section>
+    </div>
+
+    <div class="row" align="center">
+        <section class="col-md-2"></section>
+        <section class="col-md-8">
+            <h1><strong>SÍTIO ARROIO DA SERRA</strong></h1>
+            <h3>POUSADA RURAL</h3>
+        </section>
+
+        <section class="col-md-2"></section>
+    </div>
+    <hr />
+    
+    <br/>
+    <div class="row" align="center">
+        <input class="btn btn-success" type="submit" value="Inicial" onclick="window.location='Home'">
+        <input class="btn btn-success" type="submit" value="Clientes" onclick="window.location='Customer'">
+        <input class="btn btn-success" type="submit" value="Hospedagens" onclick="window.location = 'Accommodation'">
+    </div>
+    <br/>
+
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    
+    <div class="row" align="center">
+        <section class="col-md-12">
+            <br/>
+            <br/>
+        </section>
+    </div>
+    
+
+    @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>

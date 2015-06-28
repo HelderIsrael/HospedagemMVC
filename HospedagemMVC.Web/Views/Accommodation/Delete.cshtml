@@ -1,0 +1,102 @@
+﻿@model HospedagemMVC.Domain.Accommodation
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Deletar Hospedagem</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal" align="center">
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateChekIn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateChekIn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCheckOut)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCheckOut)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AmountPeopleAdult)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AmountPeopleAdult)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AmountPeopleChild)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AmountPeopleChild)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AmountChalets)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AmountChalets)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValueAdult)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValueAdult)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValueChild)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValueChild)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ValueTotal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValueTotal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Obs)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Obs)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-danger" /> |
+            @Html.ActionLink("Voltar á Lista", "Index")
+        </div>
+    }
+</div>

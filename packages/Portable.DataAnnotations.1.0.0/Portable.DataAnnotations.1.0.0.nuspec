@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Portable.DataAnnotations</id>
+    <version>1.0.0</version>
+    <title>Portable Data Annotations</title>
+    <authors>Ryan Horath</authors>
+    <owners>Ryan Horath</owners>
+    <licenseUrl>https://raw.githubusercontent.com/ryanhorath/PortableDataAnnotations/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ryanhorath/PortableDataAnnotations</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/ryanhorath/PortableDataAnnotations/master/Rybird-32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A portable library for the DataAnnotations namespace. Reduced surface area matches the Silverlight SDK version of DataAnnotations, with additions of some classes.</description>
+    <summary>A portable library for the DataAnnotations namespace.</summary>
+    <releaseNotes>First public release. See website for changes and upgrade notes.</releaseNotes>
+    <language>en-US</language>
+    <tags>net45 win8 net40 netcore45 sl5 wp8 wpa81 dataannotations data annotations</tags>
+    <dependencies>
+      <group />
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework="Silverlight5.0" />
+      <group targetFramework=".NETPortable0.0-net40+win80+sl40+wp71" />
+      <group targetFramework=".NETPortable0.0-net40+win80+sl50+wp80+wpa81" />
+      <group targetFramework=".NETPortable0.0-net45+win80+wp80+wpa81" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework="Windows8.0" />
+      <group targetFramework="WindowsPhone8.0" />
+      <group targetFramework="Unsupported0.0" />
+      <group targetFramework="MonoAndroid0.0" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.0" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="Unsupported0.0" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="Unsupported0.0" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="MonoAndroid0.0" />
+      <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="Silverlight5.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

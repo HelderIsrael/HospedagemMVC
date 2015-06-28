@@ -1,0 +1,112 @@
+﻿@model HospedagemMVC.Domain.Accommodation
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Criar Hospedagem</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        
+        <div class="form-group">
+            @Html.LabelFor(model => model.CustomerId, "CustomerId", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("CustomerId", String.Empty)
+                @Html.ValidationMessageFor(model => model.CustomerId, "", new {@class = "text-danger"})
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateChekIn, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DateChekIn)
+                @Html.ValidationMessageFor(model => model.DateChekIn)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DateCheckOut, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DateCheckOut)
+                @Html.ValidationMessageFor(model => model.DateCheckOut)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AmountPeopleAdult, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AmountPeopleAdult)
+                @Html.ValidationMessageFor(model => model.AmountPeopleAdult)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AmountPeopleChild, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AmountPeopleChild)
+                @Html.ValidationMessageFor(model => model.AmountPeopleChild)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AmountChalets, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AmountChalets)
+                @Html.ValidationMessageFor(model => model.AmountChalets)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ValueAdult, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ValueAdult)
+                @Html.ValidationMessageFor(model => model.ValueAdult)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ValueChild, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ValueChild)
+                @Html.ValidationMessageFor(model => model.ValueChild)
+            </div>
+        </div>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.ValueTotal, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ValueTotal)
+                @Html.ValidationMessageFor(model => model.ValueTotal)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Obs, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Obs)
+                @Html.ValidationMessageFor(model => model.Obs)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Novo" class="btn btn-success" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Voltar à Lista", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
