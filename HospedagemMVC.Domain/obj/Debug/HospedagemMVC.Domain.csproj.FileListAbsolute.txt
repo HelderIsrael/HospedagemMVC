@@ -1,0 +1,9 @@
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\bin\Debug\HospedagemMVC.Domain.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\bin\Debug\HospedagemMVC.Domain.pdb
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\bin\Debug\HospedagemMVC.Infra.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\bin\Debug\HospedagemMVC.Infra.pdb
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\obj\Debug\HospedagemMVC.Domain.csprojResolveAssemblyReference.cache
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\obj\Debug\HospedagemMVC.Domain.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\obj\Debug\HospedagemMVC.Domain.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\bin\Debug\Portable.DataAnnotations.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Domain\bin\Debug\Portable.DataAnnotations.pdb

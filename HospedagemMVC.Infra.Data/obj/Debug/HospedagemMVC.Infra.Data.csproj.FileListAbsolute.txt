@@ -1,0 +1,15 @@
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Infra.Data.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Infra.Data.pdb
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\obj\Debug\HospedagemMVC.Infra.Data.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\obj\Debug\HospedagemMVC.Infra.Data.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\obj\Debug\HospedagemMVC.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Aplication.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Domain.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Infra.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Aplication.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Domain.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\HospedagemMVC.Infra.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml

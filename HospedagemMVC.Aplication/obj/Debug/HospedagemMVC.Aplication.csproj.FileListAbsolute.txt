@@ -1,0 +1,9 @@
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\bin\Debug\HospedagemMVC.Aplication.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\bin\Debug\HospedagemMVC.Aplication.pdb
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\obj\Debug\HospedagemMVC.Aplication.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\obj\Debug\HospedagemMVC.Aplication.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\bin\Debug\HospedagemMVC.Domain.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\bin\Debug\HospedagemMVC.Infra.dll
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\bin\Debug\HospedagemMVC.Domain.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\bin\Debug\HospedagemMVC.Infra.pdb
+C:\Users\Helder Rocha Israel\Documents\Visual Studio 2013\Projects\HospedagemMVC\HospedagemMVC.Aplication\obj\Debug\HospedagemMVC.Aplication.csprojResolveAssemblyReference.cache

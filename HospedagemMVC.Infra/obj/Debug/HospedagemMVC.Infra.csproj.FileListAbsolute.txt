@@ -1,0 +1,4 @@
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra\bin\Debug\HospedagemMVC.Infra.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra\bin\Debug\HospedagemMVC.Infra.pdb
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra\obj\Debug\HospedagemMVC.Infra.dll
+c:\users\helder rocha israel\documents\visual studio 2013\Projects\HospedagemMVC\HospedagemMVC.Infra\obj\Debug\HospedagemMVC.Infra.pdb
